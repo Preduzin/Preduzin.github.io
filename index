@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TROPINHA DO 2-A - Blog de Artes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .post {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .post h2 {
+            margin: 0;
+            color: #007bff;
+        }
+        .date {
+            color: gray;
+            font-size: 14px;
+        }
+        .category {
+            font-weight: bold;
+            color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <h1>TROPINHA DO 2-A - Blog de Artes</h1>
+    <div class="post">
+        <h2>Pintura Criativa</h2>
+        <p class="date">Data: 20/02/2025</p>
+        <p class="category">Categoria: Artes</p>
+        <img src="pintura.jpg" alt="Foto da atividade de pintura">
+        <p>Descrição da atividade realizada na aula de artes com a professora Denise.</p>
+    </div>
+    <div class="post">
+        <h2>Escultura em Argila</h2>
+        <p class="date">Data: 18/02/2025</p>
+        <p class="category">Categoria: Artes</p>
+        <img src="escultura.jpg" alt="Foto da escultura em argila">
+        <p>Os alunos criaram esculturas utilizando argila e exploraram formas e texturas.</p>
+    </div>
+</body>
+</html>
